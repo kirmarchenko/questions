@@ -1,0 +1,31 @@
+/* Reset */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+/* Variables */
+
+:root {
+  --content-padding: 20px;
+}
+
+
+/* CSS */
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  padding: var(--content-padding);
+}
+
+#tldr li {
+  padding-bottom: 15px;
+}
