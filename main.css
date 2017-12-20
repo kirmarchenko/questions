@@ -39,6 +39,7 @@ h2 a {
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 0.6em;
+  text-decoration: none;
 }
 
 blockquote {
