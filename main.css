@@ -18,10 +18,18 @@ h1 {
 
 /* CSS */
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
 #content {
   max-width: 800px;
   margin: 0 auto;
-  font-size: 1.5em;
+  font-size: 1.2em;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   padding: var(--content-padding);
 }
