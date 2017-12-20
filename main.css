@@ -26,11 +26,30 @@ h1, h2 {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
+h1 {
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+blockquote {
+  border-left: 7px solid grey;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+p.quote {
+   text-align: right;
+   padding-right: 80px;
+}
+
 #content {
   max-width: 800px;
   margin: 0 auto;
   font-size: 1.2em;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   padding: var(--content-padding);
 }
 
