@@ -34,6 +34,13 @@ h2 {
   padding-top: 20px;
 }
 
+h2 a {
+  color: grey;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 0.6em;
+}
+
 blockquote {
   border-left: 7px solid grey;
   padding: 5px;
@@ -64,6 +71,11 @@ p.quote {
   border: 1px dashed green;
   margin-top: 2px;
   background: rgba(0, 255, 0, 0.1);
+}
+
+.content-separator {
+  text-align: center;
+  color: grey;
 }
 
 #content {
