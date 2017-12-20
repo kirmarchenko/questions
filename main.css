@@ -45,6 +45,27 @@ p.quote {
    padding-right: 80px;
 }
 
+.examples {
+  display: flex;
+  flex-flow: column;
+}
+
+.example {
+  padding: 10px;
+}
+
+.ex-bad {
+  border: 1px dashed red;
+  margin-bottom: 2px;
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.ex-good {
+  border: 1px dashed green;
+  margin-top: 2px;
+  background: rgba(0, 255, 0, 0.1);
+}
+
 #content {
   max-width: 800px;
   margin: 0 auto;
